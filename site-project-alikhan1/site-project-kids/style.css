@@ -1,0 +1,381 @@
+.main{
+    width: 100%;
+    height: 177.8vh;
+}
+#hidden{
+    width: 100%;
+    padding: 1%;
+    margin-top: -2.6%;
+    margin-left: -1%;
+    height: 5%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+}
+#hidden h1{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.ttxt{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 15%;
+    margin-top: 2.5%;
+    text-align: center;
+}
+.blocks{
+    display: grid;
+    justify-content: space-between;
+    width: 100%;
+    height: 80%;
+    grid-template-columns: 24.5% 24.5% 24.5% 24.5% ;
+}
+.mini-blocks{
+    margin-top: 2%;
+}
+.img-block{
+    position: relative;
+    width: 100%;
+    height:90%;
+}
+.img-block a{
+    text-decoration: none;
+    color: black;
+    
+}
+.img-block h2{
+    height: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    width: 30%;
+    margin-top: -1%;
+    
+}
+
+.img-block img{
+    width: 100%;
+    height: 100%;
+}
+.img-block p{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+@media (max-width:1800px) and (min-width:1400px) {
+    #hidden h1{
+        font-size: 170%;
+    }
+    .ttxt h1{
+        font-size: 170%;
+    }
+    .ttxt p{
+        font-size: 120%;
+    }
+    .mini-blocks{
+        height: 90%;
+        margin-top: 10%;
+    }
+
+    .img-block h2{
+        margin-top: 3%;
+    }
+    .blocks{
+        height: 80%;
+    }
+    .img-block img{
+        width: 100%;
+        height: 100%;
+    }
+    .ttxt {
+        height: 10%;
+    }
+}
+
+@media (max-width:1400px) and (min-width:1200px) {
+    .main{
+        height: 130vh;
+    }
+    .blocks{
+        margin-top: 5%;
+    }
+    #hidden h1{
+        font-size: 140%;
+    }
+    .ttxt h1{
+        font-size: 170%;
+    }
+    .ttxt p{
+        font-size: 120%;
+    }
+    .mini-blocks{
+        height: 90%;
+        margin-top: 0%;
+    }
+
+    .img-block h2{
+        margin-top: 3%;
+    }
+    .blocks{
+        height: 80%;
+    }
+    .img-block img{
+        width: 100%;
+        height: 100%;
+    }
+    .ttxt {
+        height: 10%;
+    }
+}
+@media (max-width:1200px) and (min-width:800px) {
+    .main{
+        height: 130vh;
+    }
+    .blocks{
+        margin-top: 5%;
+    }
+    #hidden h1{
+        font-size: 140%;
+    }
+    .ttxt h1{
+        font-size: 170%;
+    }
+    #registration-logo{
+        width: 50px;
+        height: 40px;
+    }
+    #profile-logo{
+        width: 50px;
+        height: 40px;
+
+    }
+    
+    .ttxt p{
+        font-size: 120%;
+    }
+    .mini-blocks{
+        height: 90%;
+        margin-top: 0%;
+    }
+
+    .img-block h2{
+        margin-top: 3%;
+    }
+    .blocks{
+        grid-template-columns: 48% 48%;
+        height: 80%;
+        
+    }
+    .img-block img{
+        width: 100%;
+        height: 100%;
+    }
+    .ttxt {
+        height: 10%;
+    }
+}
+@media (max-width:800px) and (min-width:430px) {
+    .main{
+        height: 140vh;
+    }
+    .blocks{
+        margin-top: 10%;
+    }
+    #hidden h1{
+        font-size: 100%;
+    }
+    #registration-logo{
+        width: 35px;
+        height: 25px;
+    }
+    #profile-logo{
+        width: 35px;
+        height: 25px;
+
+    }
+    .ttxt h1{
+        font-size: 140%;
+    }
+    .ttxt p{
+        font-size: 90%;
+    }
+    .mini-blocks{
+        height: 80%;
+        margin-top: 0%;
+    }
+    #hidden{
+        align-items: center;
+        margin-left: -3%;
+        margin-top: -2.5%;
+    }
+    #nn1{
+        font-size: 80%;
+        width: 100%;
+        
+    }
+    #nn2{
+        font-size: 80%;
+        width: 100%;
+        
+    }
+    #nn3{
+        font-size: 80%;
+        width: 100%;
+        
+    }
+    #nn4{
+        font-size: 80%;
+        width: 100%;
+        
+    }
+    #nn5{
+        font-size: 80%;
+        width: 100%;
+        
+    }
+    .img-block p{
+        font-size: 90%;
+    }
+
+    .img-block h2{
+        margin-top: 3%;
+    }
+    .blocks{
+        grid-template-columns: 48% 48%;
+        height: 80%;
+        
+    }
+    .img-block img{
+        width: 100%;
+        height: 100%;
+    }
+    .ttxt {
+        height: 10%;
+    }
+}
+@media (max-width:430px) and (min-width:360px) {
+    .main{
+        height: 140vh;
+    }
+    .blocks{
+        margin-top: 10%;
+    }
+    #hidden h1{
+        font-size: 100%;
+    }
+    #hidden{
+        align-items: center;
+        margin-left: -4%;
+        margin-top: -2.5%;
+    }
+    #registration-logo{
+        width: 25px;
+        height: 20px;
+    }
+    #profile-logo{
+        width: 25px;
+        height: 20px;
+
+    }
+    
+    #hidden h1{
+        font-size: 100%;
+    }
+    #nn1{
+        font-size: 60%;
+        width: 100%;
+        
+    }
+    #nn2{
+        font-size: 60%;
+        width: 100%;
+        
+    }
+    #nn3{
+        font-size: 60%;
+        width: 100%;
+        
+    }
+    #nn4{
+        font-size: 60%;
+        width: 100%;
+        
+    }
+    #nn5{
+        font-size: 60%;
+        width: 100%;
+        
+    }
+    .ttxt h1{
+        font-size: 140%;
+    }
+    .ttxt p{
+        font-size: 90%;
+    }
+    .mini-blocks{
+        height: 80%;
+        margin-top: 0%;
+    }
+    .img-block p{
+        font-size: 90%;
+    }
+
+    .img-block h2{
+        margin-top: 3%;
+    }
+    .blocks{
+        grid-template-columns: 1fr;
+        height: 80%;
+        
+    }
+    .img-block img{
+        width: 100%;
+        height: 100%;
+    }
+    .ttxt {
+        height: 10%;
+    }
+}
+.ns{
+    text-align: center;
+    width: 15%;
+    height: 40%;
+    
+}
+.ns a{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: white;
+    font-size: 130%;
+    text-decoration: none;
+}
+.ns a:hover{
+    color: white;
+}
+.ns a:not(:hover){
+    color: rgb(145, 141, 141);
+}
+
+.login a{
+    width: 45px;
+    border-radius: 50px;
+    height: 40px;
+}
+#registration-logo{
+    background-image: url(https://cdn-icons-png.flaticon.com/512/5455/5455480.png);
+    background-position: 50%;
+    background-size: cover;
+}
+#profile-logo{
+    background-image: url(https://cdn-icons-png.flaticon.com/512/5508/5508690.png);
+    background-position: 50%;
+    background-size: cover;
+}

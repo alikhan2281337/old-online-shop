@@ -1,0 +1,340 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.Container  {
+    width: 100%;
+    height: 97.5vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navigators {
+    width: 10%;
+    height: 70%;
+    margin-left: 5%;
+}
+.profile-zone{
+    width: 70%;
+    margin-right: 5%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.client-photo{
+    width: 30%;
+    height: 80%;
+    padding: 2%;
+    border: solid 2px rgba(131, 131, 131, 0.479);
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.information-about{
+    width: 55%;
+    height: 80%;
+    padding: 2%;
+    border: solid 2px rgb(131, 131, 131, 0.479);
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.information-about p{
+    color: rgb(101, 101, 101);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.information-about span{
+    color: black;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    
+}
+.navigators{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+}
+.navigators a{
+    
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    height: 28px;
+    margin-top: 10%;
+    color: black;
+    padding: 1%;
+    text-align: center;
+}
+#Personal-href{
+    border-bottom: solid 2px black;
+    
+}
+
+.photo{
+    width: 95%;
+    height: 75%;
+    background-image: url(https://i.pinimg.com/564x/70/55/67/70556710200ca76b4758da86376ed7fa.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.button{
+    width: 95%;
+    height: 10%;
+    margin-bottom: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button button{
+    width: 60%;
+    height: 70%;
+    border-radius: 10px;
+    border: solid 0.5px black;
+    background-color: rgb(255, 255, 255);
+    font-size: 120%;
+    letter-spacing: 0.1px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+
+}
+.button button:hover{
+    background-color: rgb(47, 47, 47);
+    border: none;
+    transition: all ease-in-out 1s;
+    color: white;
+    width: 50%;
+
+}
+.button button:not(:hover){
+    transition: all ease-in-out 1s;
+    width: 60%;
+}
+body{
+    background-color: rgb(221, 221, 221);
+}
+@media (max-width:2000px) and (min-width:1600px){
+    p{
+        font-size: 100%;
+    }
+}
+@media (max-width:1600px) and (min-width:1300px){
+    p{
+        font-size: 110%;
+    }
+    .profile-zone{
+        height: 80%;
+    }
+    .navigators{
+        height: 60%;
+    }
+}
+@media (max-width:1300px) and (min-width:1000px){
+    p{
+        font-size: 90%;
+    }
+    .client-photo{
+        width: 35%;
+        margin-right: 5%;
+    }
+    .profile-zone{
+        height: 70%;
+    }
+    .information-about{
+        width: 70%;
+    }
+    .navigators{
+        height: 60%;
+        width: 15%;
+    
+    }
+}
+@media (max-width:1000px) and (min-width:800px){
+    p{
+        font-size: 80%;
+    }
+    .client-photo{
+        width: 45%;
+        margin-right: 5%;
+    }
+    .profile-zone h1{
+        font-size: 150%;
+        text-align: center;
+    }
+    .profile-zone{
+        height: 60%;
+    }
+    .information-about{
+        width: 70%;
+    }
+    .information-about p{
+        display: flex;
+        height: 25px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .information-about span{
+        width: 100%;
+        text-align: center;
+    }
+    .navigators{
+        height: 50%;
+        width: 15%;
+    
+    }
+}
+@media (max-width:800px) and (min-width:600px){
+    .Container{
+        display: flex;
+        flex-direction: column;
+    }
+    p{
+        font-size: 90%;
+    }
+    .navigators{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        height: 5%;
+        margin-left: 0%;
+        justify-content: space-around;
+    }
+    #Personal-href{
+        border-bottom: solid 1px;
+    }
+    .profile-zone{
+        width: 99%;
+    }
+    .client-photo{
+        width: 40%;
+        margin-left: 5%;
+    }
+    .navigators a{
+        padding: 1%;
+        font-size: 90%;
+        
+        margin-top: 1%;
+        align-items: center;
+    }
+}
+@media (max-width:600px) and (min-width:533px){
+    .Container{
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        font-size: 140%;
+        text-align: center;
+    }
+    p{
+        font-size: 70%;
+    }
+    .navigators{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        height: 5%;
+        margin-left: 0%;
+        justify-content: space-around;
+    }
+    #Personal-href{
+        border-bottom: solid 1px;
+    }
+    .profile-zone{
+        width: 99%;
+        display: flex;
+        height: 80%;
+        flex-direction: column;
+        margin-left: 5%;
+    }
+    .client-photo{
+        width: 60%;
+        height: 80%;
+    }
+    .photo{
+        height:150%;
+    }
+    .information-about{
+        width: 60%;
+    }
+    
+    .navigators a{
+        padding: 1%;
+        font-size: 80%;
+        margin-top: 1%;
+        align-items: center;
+    }
+    .button{
+        height: 20%;
+        margin-bottom: 0%;
+    }
+    
+}
+@media (max-width:533px) and (min-width:360px){
+    .Container{
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        font-size: 120%;
+        text-align: center;
+    }
+    p{
+        font-size: 60%;
+    }
+    .navigators{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        height: 5%;
+        margin-left: 0%;
+        justify-content: space-around;
+    }
+    #Personal-href{
+        border-bottom: solid 1px;
+    }
+    .profile-zone{
+        width: 99%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+    }
+    .client-photo{
+        width: 60%;
+        height: 80%;
+    }
+    .photo{
+        height:100%;
+    }
+    .information-about{
+        width: 60%;
+    }
+    
+    .navigators a{
+        padding: 1%;
+        font-size: 60%;
+        margin-top: 1%;
+        align-items: center;
+    }
+    .button{
+        height: 10%;
+        font-size: 70%;
+        width: 60%;
+        margin-bottom: 0%;
+    }
+    
+}
